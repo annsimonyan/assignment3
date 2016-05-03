@@ -1,0 +1,23 @@
+
+	day= Day;
+	month=Month;
+	year=Year;
+}
+int main(void)
+{
+  Student Aram("Aram", "Grigoryan", "CS"); //constructor
+  Anna.set_birth_date(12, 7, 1995);
+Student d(Aram); //copy constructor
+d.firstname("Ara");
+d.lastname("Sargsyan");
+d.birth_date(1, 5, 1995);
+
+cout << "Below is the information about the registered students"<< endl;
+cout << Anna.get_first_name() << " " << Anna.get_id()<< :endl;
+cout << Anna.get_formatted_date() << endl;
+
+cout << d.get_first_name() << " " << d.get_id()<<endl;
+cout << d.get_birth_date() << endl;
+
+
+}
